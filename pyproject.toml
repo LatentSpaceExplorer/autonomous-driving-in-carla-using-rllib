@@ -1,0 +1,19 @@
+[project]
+name = "carla-rllib"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.7"
+
+dependencies = [
+    "ipykernel>=6.16.2",
+    "matplotlib>=3.5.3",
+    "carla==0.9.14", # this should be the same version as your carla
+    "gputil>=1.4.0",
+    "ray[rllib]==2.7.1",
+    "urllib3==1.26.16", # downgrade for openSSL
+    "torch==1.13.1",
+    "protobuf==3.20",
+    "tensorboard>=2.11.2",
+    "keyboard>=0.13.5",
+]
