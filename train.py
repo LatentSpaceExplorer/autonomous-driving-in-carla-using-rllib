@@ -100,7 +100,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Carla RL Trainer")
     parser.add_argument("-c", "--cpus", type=int, default=4, help="Number of CPUs (default: 4)")
     parser.add_argument("-g", "--gpus", type=int, default=0, help="Number of GPUs (default: 0)")
-    parser.add_argument("-e", "--env", type=str, default="EnvX3", help="Environment (default: EnvX3)")
+    parser.add_argument("-e", "--env", type=str, default="RoadCenterEnv", help="Environment (default: RoadCenterEnv)")
     parser.add_argument("-a", "--algo", type=str, default="DQN", help="Algorithm (default: DQN)")
     parser.add_argument("-d", "--debug", action="store_true", help="Run in debug mode")
     parser.add_argument("-i", "--iterations", type=int, default=100, help="Number of iterations (default: 100)")
