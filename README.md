@@ -21,6 +21,7 @@ This project provides a framework for training reinforcement learning agents in 
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/LatentSpaceExplorer/autonomous-driving-in-carla-using-rllib.git
+    cd autonomous-driving-in-carla-using-rllib
     ```
 
 2. **Download CARLA:**
