@@ -20,6 +20,7 @@ def all_continuous_actions(throttle_delta=0.1, steer_delta=0.1, brake_delta_slow
     }
 
 def get_continuous_vehicle_controls(action_id, current_throttle, current_steer, delta_throttle=0.1, delta_steer=0.1, brake_delta_slow=0.1, brake_delta_full=1.0):
+    
     action_control = all_continuous_actions(delta_throttle, delta_steer, brake_delta_slow, brake_delta_full)[action_id]
     controls = carla.VehicleControl()
 
